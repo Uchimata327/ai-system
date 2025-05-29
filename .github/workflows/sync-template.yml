@@ -1,0 +1,24 @@
+name: Sync Template
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Add template remote
+        run: |
+          git remote add template https://github.com/team-org/template-repo.git
+          git fetch template
+
+      - name: Pull template changes
+        run: |
+          git pull template main --allow-unrelated-histories
+
+      - name: Push merged changes
+        run: |
+          git push origin HEAD:main
+Add GitHub Action to sync from template repo
