@@ -11,4 +11,3 @@
     "axios": "^1.6.8"
   }
 }
-Add package.json with axios for webhook handler
