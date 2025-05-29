@@ -1,0 +1,8 @@
+{
+  "name": "ai.kris",
+  "role": "Infrastruktur- og API-agent",
+  "scope": ["webhook", "deploy", "actions", "API"],
+  "status": "active",
+  "last_sync": "2025-05-29T22:15:00Z"
+}
+Add metadata JSON for ai.kris and ai.fredrik
