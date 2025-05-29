@@ -50,3 +50,4 @@ Se [`shared/roadmap.md`](shared/roadmap.md) for plan og oppgaver.
 
 ```bash
 git clone https://github.com/Uchimata327/ai-system.git
+<!-- Dummy commit for webhook test -->
